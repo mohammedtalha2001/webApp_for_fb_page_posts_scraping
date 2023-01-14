@@ -74,9 +74,9 @@ def test(url,input_data2):
     driver.get('https://www.facebook.com')
     driver.implicitly_wait(10)
     email = driver.find_element(By.ID, "email")
-    email.send_keys("ktalha74@yahoo.com")
+    email.send_keys("")
     password = driver.find_element(By.ID, "pass")
-    password.send_keys("happybirthday2u")
+    password.send_keys("")
     login = driver.find_element(By.NAME, "login")
     login.click()
 
